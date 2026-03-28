@@ -3,6 +3,7 @@
 #include "effect_instance.h"
 #include "godot_cpp/variant/typed_array.hpp"
 #include "tag_manager.h"
+#include <algorithm>
 
 void EffectSystem::_bind_methods() {
     ClassDB::bind_method(D_METHOD("get_tag_container"),
